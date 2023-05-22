@@ -21,5 +21,8 @@ jobs:
       
     - name: Setup Android SDK
       uses: amyu/setup-android@v2
+      with:
+        sdk-version: '33'
+        build-tools-version: '34.0.1'
 
     - run: ./gradlew build --stacktrace
