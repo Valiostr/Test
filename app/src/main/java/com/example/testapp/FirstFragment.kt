@@ -26,6 +26,7 @@ class FirstFragment : Fragment() {
 
 
         print(10)
+        print(11)
         _binding = FragmentFirstBinding.inflate(inflater, container, false)
         return binding.root
 
